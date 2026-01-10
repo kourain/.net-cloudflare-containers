@@ -22,6 +22,10 @@
       "name": "kourain_container"
     }
   ],
+	"assets": {
+		// The path to the directory containing the `index.html` file to be served at `/`
+		"directory": "./public"
+	},
   "durable_objects": {
     "bindings": [
       {
